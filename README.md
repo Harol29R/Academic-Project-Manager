@@ -2,7 +2,7 @@
 
 Aplicación web desarrollada en Python que permite gestionar trabajos académicos mediante el registro, consulta y organización de información relevante como título, autor, curso y especialidad.
 
-El sistema incluye funcionalidades para la carga y almacenamiento de archivos, permitiendo guardar imágenes directamente en la base de datos y documentos PDF en el servidor, optimizando así la gestión de recursos.
+El sistema incluye funcionalidades para la carga y almacenamiento de archivos, permitiendo guardar imágenes en la base de datos y documentos PDF en el servidor, optimizando así la gestión de recursos.
 
 🚀 Características
 Registro de trabajos académicos
@@ -16,9 +16,12 @@ MySQL
 HTML, CSS
 ⚙️ Instalación
 Clonar el repositorio
-Instalar dependencias (pip install -r requirements.txt)
+
+Instalar dependencias:
+
+pip install -r requirements.txt
 Configurar variables de entorno
 Ejecutar la aplicación
-
 📌 Autor
+
 Harol Rincón
