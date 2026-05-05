@@ -19,6 +19,6 @@ Clonar el repositorio
 Instalar dependencias (pip install -r requirements.txt)
 Configurar variables de entorno
 Ejecutar la aplicación
-📌 Autor
 
+📌 Autor
 Harol Rincón
