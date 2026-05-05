@@ -1,4 +1,4 @@
-# 📚 Academic Project Manager
+# Academic Project Manager
 
 ---
 
@@ -8,7 +8,7 @@ El sistema incluye funcionalidades para la carga y almacenamiento de archivos, p
 
 ---
 
-## 🚀 Características
+##  Características
 
 * Registro de trabajos académicos
 * Listado y consulta de información
@@ -18,7 +18,7 @@ El sistema incluye funcionalidades para la carga y almacenamiento de archivos, p
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 * Python (Flask)
 * MySQL
@@ -47,4 +47,3 @@ pip install -r requirements.txt
 Harol Rincón
 
 
-Harol Rincón
