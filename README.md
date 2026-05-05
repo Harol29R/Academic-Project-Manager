@@ -26,7 +26,7 @@ El sistema incluye funcionalidades para la carga y almacenamiento de archivos, p
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 1. Clonar el repositorio
 
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📌 Autor
+## Autor
 
 Harol Rincón
 
