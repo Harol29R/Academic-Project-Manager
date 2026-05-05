@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Trabajos</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            text-decoration: none;
+            background-color: #2196F3;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0b7dda;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Listado de Trabajos</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Título</th>
+        <th>Tipo</th>
+        <th>Autor</th>
+        <th>Curso</th>
+        <th>Especialidad</th>
+        <th>PDF</th>
+    </tr>
+
+    {% for t in trabajos %}
+    <tr>
+        <td>{{ t.id }}</td>
+        <td>{{ t.titulo_trabajo }}</td>
+        <td>{{ t.tipo_trabajo }}</td>
+        <td>{{ t.autor }}</td>
+        <td>{{ t.curso }}</td>
+        <td>{{ t.especialidad }}</td>
+        <td><a href="/pdf/{{ t.id }}">Descargar</a></td>
+    </tr>
+    {% endfor %}
+    <a href="/">⬅ Volver</a>
+</table>
+
+</body>
+</html>
